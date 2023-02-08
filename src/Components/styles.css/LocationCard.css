@@ -1,0 +1,44 @@
+.locationCard__info{
+    background-color: black;
+    opacity: 0.9;
+    color: aliceblue;
+    height: 180px;
+}
+.locationCard__title{
+   text-align: center;
+   font-size: 25px;
+   padding-top: 30px; 
+}
+.locationCard__cont{
+    height: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.paginationCard__page{
+    background-color: black;
+    opacity: 0.9;
+    color: aliceblue; 
+    text-align: center; 
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.paginationCard__list{
+    background-color: aliceblue;
+    border-radius: 50%;
+    text-align: center;
+    padding-top:5px;
+    color: black;
+    width: 30px;
+    height: 30px;
+   
+}
+.paginationCard__list:hover{
+    cursor: pointer;
+    background-color: black;
+    color: aliceblue;
+    border:2px solid red;
+}

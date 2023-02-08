@@ -1,0 +1,42 @@
+.formCard__background{
+    height: 350px;
+    width: 100%;
+    background-image: url(/src/img/headerimage.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formCard__formulario{
+    display: flex;
+    gap: 10px;
+}
+ input{
+    width: 300px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: 600;
+    opacity: 0.7;
+}
+input:hover{
+    border: 2px solid red;
+}
+.formCard__buton{
+    background-color: black;
+    color: aliceblue;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 8px;
+    width: 90px;
+    
+}
+.formCard__buton:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    border: 2px solid red;
+}
+
