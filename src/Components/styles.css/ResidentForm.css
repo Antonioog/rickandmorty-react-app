@@ -40,3 +40,15 @@ input:hover{
     border: 2px solid red;
 }
 
+@media (min-width: 250px) and (max-width: 576px){
+    .formCard__formulario{
+        display: flex;
+        flex-direction: column;
+    }
+    .formCard__buton{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+}
+
