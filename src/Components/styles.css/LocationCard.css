@@ -42,3 +42,19 @@
     color: aliceblue;
     border:2px solid red;
 }
+
+@media (min-width: 250px) and (max-width: 576px){
+
+    .locationCard__info{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .locationCard__cont{
+        display: flex;
+        flex-direction: column;
+        column-gap: 5px;
+    }
+    
+    
+}
